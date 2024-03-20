@@ -1,0 +1,17 @@
+{
+    "sites" :[
+        {
+            "enName": "BKTSK.com",
+            "jaName": "ぼくのたどりつくばしょ",
+            "img": "/bktsk-google-banner.svg",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis nemo tenetur corrupti maiores ullam est commodi pariatur ratione nesciunt obcaecati hic, voluptates itaque consectetur nisi dolores quidem aperiam recusandae iusto.",
+            "url": "https://bktsk.com"
+        },
+        {
+            "enName": "vi kent",
+            "img": "https://i0.wp.com/kent-and-co.com/wp-content/uploads/2021/05/dummy2021.png?w=1920&ssl=1",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis nemo tenetur corrupti maiores ullam est commodi pariatur ratione nesciunt obcaecati hic, voluptates itaque consectetur nisi dolores quidem aperiam recusandae iusto.",
+            "url": "https://kent-and-co.com"
+        }
+    ]
+}

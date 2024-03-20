@@ -1,0 +1,45 @@
+{
+    "services": [
+        {
+            "enName": "Ikaskey",
+            "jaName": "いかすきー",
+            "serviceImg": "https://ikaskey-s3.bktsk.com/ikaskey/a1a91699-6dbe-487d-adef-0e1e6442ef66.png",
+            "platform": "Misskey",
+            "description": "A federation of the Misskey network. Especially for Splatoon players.",
+            "meta": [
+                "Admin",
+                "Contributor",
+                "Server Owner",
+                "Customize"
+            ],
+            "url":"https://ikaskey.bktsk.com/"
+        },
+                {
+            "enName": "Minecraft Misskey",
+            "serviceImg": "https://minecraft-s3.bktsk.com/minecraft/a7f8108d-a4f8-4fba-b080-055bad059405.png",
+            "platform": "Misskey",
+            "description": "A federation of the Misskey network. Especially for Minecraft players.",
+            "meta": [
+                "Admin",
+                "Contributor",
+                "Server Owner",
+                "Customize"
+            ],
+            "url":"https://minecraft.bktsk.com/"
+        }
+,
+        {
+            "enName": "BKTSK Misskey",
+            "jaName": "ぼくのたどりつくばしょ",
+            "serviceImg": "https://misskey-s3.bktsk.com/misskey/a5d703fa-2a27-4cb3-97bd-1c9427fa6412.png",
+            "platform": "Misskey",
+            "description": "A federation of the Misskey network. Just for me. Also for testing purpose of the other Misskey services.",
+            "meta": [
+                "Admin",
+                "Contributor",
+                "Server Owner"
+            ]
+        }
+
+    ]
+}
