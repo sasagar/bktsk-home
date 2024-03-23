@@ -12,15 +12,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 	return (
-		<html lang="ja">
+		<html lang="ja" className="scroll-smooth focus:scroll-auto">
 			<body className={`${inter.className}`}>
 				<div className="bg-zinc-900 text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-bktsk-yellow-400/80">
-					{/* Header */}
 					<Header />
 
 					{children}
 
-					{/* Footer */}
 					<Footer />
 				</div>
 			</body>

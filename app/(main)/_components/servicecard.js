@@ -25,13 +25,13 @@ const ServiceCard = ({ service }) => {
 	}, [service.jaName]);
 
 	return (
-		<article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[900px] snap-center p-10 hover:opacity-100 lg:opacity-40 bg-zinc-800/50 cursor-pointer transition-opacity duration-200 overflow-hidden">
+		<article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[900px] snap-center p-8 hover:opacity-100 lg:opacity-40 bg-zinc-800/50 cursor-pointer transition-opacity duration-200 overflow-hidden">
 			<motion.img
 				initial={{ y: -100, opacity: 0 }}
 				whileInView={{ y: 0, opacity: 1 }}
 				transition={{ duration: 1.2 }}
 				viewport={{ once: true }}
-				className="w-32 h-32 xl:w-[200px] xl:h-[200px] object-cover object-center"
+				className="w-24 h-24 xl:w-[100px] xl:h-[100px] object-cover object-center"
 				src={service.serviceImg}
 				alt={service.enName}
 			/>
