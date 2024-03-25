@@ -10,4 +10,15 @@
   .contactInput {
     @apply outline-none bg-zinc-400/10 rounded-sm border-b px-3 py-2 border-zinc-700 text-bktsk-yellow-600 placeholder-gray-500 transition-all focus:border-bktsk-yellow-400/40 focus:text-bktsk-yellow-400 hover:border-bktsk-yellow-400/40;
   }
+
+  .backdrop {
+    @apply absolute top-0 left-0 h-full w-full bg-black/80 flex items-center justify-center;
+  }
+
+  .modal {
+    width: clamp(50%, 700px, 90%);
+    height: min(50%, 300px);
+
+    @apply m-auto px-8 py-0 p-10 bg-white text-black rounded-lg shadow-2xl w-8/12 min-w-64 mx-auto transition-all flex flex-col justify-center items-center;
+  }
 }

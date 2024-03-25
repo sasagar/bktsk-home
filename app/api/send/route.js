@@ -10,9 +10,10 @@ export const POST = async (request) => {
 	try {
 		const data = await resend.emails.send({
 			from: `BKTSK.com <${noReply}>`,
-			to: [address],
+			to: [req.email],
+			bcc: [address],
 			subject: "Contact from BKTSK.com",
-			react: EmailTemplate({ req }),
+			react: EmailTemplate({ ...req }),
 		});
 		if (!data.error) return Response.json(data);
 
