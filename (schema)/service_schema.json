@@ -1,0 +1,36 @@
+{
+    "properties": {
+        "name": "services",
+        "type": "array",
+        "items": {
+            "type": "object",
+            "required": ["enName", "serviceImg", "platform", "description"],
+            "properties": {
+                "enName": {
+                    "type": "string"
+                },
+                "jaName": {
+                    "type": "string"
+                },
+                "serviceImg": {
+                    "type": "string"
+                },
+                "platform": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "meta": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "url": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

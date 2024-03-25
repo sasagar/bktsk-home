@@ -1,0 +1,27 @@
+{
+    "properties" :{
+        "name": "sites",
+        "type": "array",
+        "items": {
+            "type": "object",
+            "required": ["enName", "img", "description"],
+            "properties": {
+                "enName": {
+                    "type": "string"
+                },
+                "jaName": {
+                    "type": "string"
+                },
+                "img": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

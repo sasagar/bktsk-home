@@ -28,12 +28,17 @@ const About = () => {
 			/>
 
 			<div className="space-y-10 px-0 md:px-10">
-				<h4 className="text-4xl font-semibold">Where the place I reach.</h4>
+				<h4 className="text-4xl font-semibold">The place I reach, at last.</h4>
 				<p className="text-sm">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					Necessitatibus quibusdam earum tempora laudantium quae totam
-					voluptatem reiciendis? Praesentium fugiat odio perspiciatis porro
-					deserunt. Quidem deleniti architecto eos! Officiis, esse nostrum.
+					BKTSK is derived from the Japanese phrase "ぼくのたどりつくばしょ
+					(僕のたどりつく場所)," which means "the place where I finally end up".
+					Many of the services and sites that I have launched myself have been
+					developed under this domain. Some of them are available to the public,
+					so we will introduce them here.
+				</p>
+				<p>
+					"BKTSK" is an abbreviation of "ぼくつく". "ぼくつく" is an
+					abbreviation of "ぼくのたどりつくばしょ".
 				</p>
 			</div>
 		</motion.div>
