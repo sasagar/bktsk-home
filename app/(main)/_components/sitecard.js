@@ -3,6 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
+import * as Devicon from "devicons-react";
 
 const SiteCard = ({ site }) => {
 	return (
@@ -20,7 +21,7 @@ const SiteCard = ({ site }) => {
 				className="max-w-[300px] max-h-[300px]"
 			/>
 
-			<div className="space-y-10 px-0 md:px-10 max-w-6xl">
+			<div className="space-y-7 px-0 md:px-10 max-w-6xl">
 				<h4 className="text-2xl font-semibold text-center">
 					<span className=" text-bktsk-bktsk-yellow-500 inline-block border-b-2 border-b-bktsk-blue-400 px-3">
 						{site.enName}
@@ -34,12 +35,12 @@ const SiteCard = ({ site }) => {
 						""
 					)}
 				</h4>
-				<p className="text-sm text-center md:text-left">
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis
-					nemo tenetur corrupti maiores ullam est commodi pariatur ratione
-					nesciunt obcaecati hic, voluptates itaque consectetur nisi dolores
-					quidem aperiam recusandae iusto.
-				</p>
+				{site.tech && site.tech.length > 0 ? (
+					<TechIcons techs={site.tech} />
+				) : (
+					""
+				)}
+				<p className="text-sm text-center md:text-left">{site.description}</p>
 				{site.url ? (
 					<a
 						href={site.url}
@@ -53,6 +54,21 @@ const SiteCard = ({ site }) => {
 					""
 				)}
 			</div>
+		</div>
+	);
+};
+
+const TechIcon = ({ tech }) => {
+	const TechComponent = Devicon[tech];
+	return <TechComponent size={24} color="rgb(161 161 170)" />;
+};
+
+const TechIcons = ({ techs }) => {
+	return (
+		<div className="flex flex-row justify-center items-center gap-2">
+			{techs.map((tech) => {
+				return <TechIcon tech={tech} key={tech} />;
+			})}
 		</div>
 	);
 };

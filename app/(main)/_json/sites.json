@@ -4,18 +4,21 @@
             "enName": "BKTSK.com",
             "jaName": "ぼくのたどりつくばしょ",
             "img": "/bktsk-google-banner.svg",
+            "tech": ["NextjsPlain","JavascriptPlain","Css3Plain","ReactOriginal","FramermotionOriginal"],
             "description": "This is exactly what this site is about; it was created to show what services and sites BKTSK.com has to offer.",
             "url": "https://bktsk.com"
         },
         {
             "enName": "vi kent",
             "img": "https://i0.wp.com/kent-and-co.com/wp-content/uploads/2021/05/dummy2021.png?w=1920&ssl=1",
+            "tech": ["WordpressPlain","PhpPlain","JavascriptPlain","JqueryPlain"],
             "description": "This is my personal blog. I report on my activities as a freelancer and introduce the things I have made.",
             "url": "https://kent-and-co.com"
         },
         {
             "enName": "hacoSHA! Official Fan Site",
             "img": "https://hacosha.bktsk.com/wp-content/uploads/2018/11/logo-ogp.png",
+            "tech": ["WordpressPlain","PhpPlain","JavascriptPlain","JqueryPlain","SassOriginal"],
             "description": "hacoSHA! is an experimental LGBT-friendly photography event. It is designed to provide information about photography events taking place around the country.",
             "url": "https://hacosha.bktsk.com/"
         }
